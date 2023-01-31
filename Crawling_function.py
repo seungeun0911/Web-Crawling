@@ -33,5 +33,3 @@ def crawling():
      
     df = pd.DataFrame(review_data, columns=['sentence','score'])
     df.to_csv("crawling_data.csv", encoding ="utf-8", index=False)
-    
-crawling()
